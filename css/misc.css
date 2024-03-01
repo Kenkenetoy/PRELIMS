@@ -12,11 +12,36 @@ h5 {
 p {
   font-weight: 100;
   font-size: 14px;
+  font-style: normal;
+  color: rgb(0, 0, 0);
   /* text-transform: capitalize; If tapuwan kaayo mo capitalize sa first letter sa html file */
 }
 
+a {
+  color: rgba(239, 141, 40, 255);
+  text-decoration: none;
+}
+
+a:hover {
+  filter: brightness(150%);
+}
+
+/* a:visited {
+  color: ;
+} */
+
 #white {
   color: white;
+}
+
+#white-bold {
+  color: white;
+  font-weight: 500;
+}
+
+#white-bolder {
+  color: white;
+  font-weight: 1000;
 }
 
 #white-left {
@@ -24,10 +49,21 @@ p {
   text-align: left;
 }
 
+#white-left-bold {
+  color: white;
+  text-align: left;
+  font-weight: 500;
+}
+
 #white-left-glowing {
   color: white;
   text-align: left;
   filter: drop-shadow(0px 0px 1px #ffffff);
+}
+
+#white-shadow {
+  color: white;
+  filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.5));
 }
 
 /* ! para sa transitioning */

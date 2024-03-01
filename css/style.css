@@ -3,14 +3,13 @@
   margin: 0;
   font-family: "Roboto", sans-serif;
   font-style: normal;
+  list-style: none;
 }
 
 body {
-  background-image: url(https://img.freepik.com/free-photo/nature-colorful-landscape-dusk-cloud_1203-5705.jpg?w=900&t=st=1709004555~exp=1709005155~hmac=e75e902486a01d9d6e56ebc6e2af453951478f46724dbda9e2de06e0065908c0);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background: url(/public/img/header/Header.jpg) center center/cover no-repeat
+    fixed;
   min-height: 100vh;
-  padding-top: 2.5em;
 }
 
 header {
@@ -21,18 +20,27 @@ header {
   position: sticky;
   top: 0;
   width: 100%;
-  margin-bottom: 2.5em;
   z-index: 100;
 }
 
 header nav {
-  padding: 1.5em 0 1.5em 5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 header nav a {
   text-decoration: none;
   color: white;
-  font-size: 1.3em;
   margin: 1em;
 }
 
@@ -40,15 +48,46 @@ header nav a img {
   max-height: 2em;
 }
 
+.pre-oten {
+  background-color: rgba(28, 81, 159, 255);
+  padding: 15px 10px 10px 30px;
+  transform: scaleY(125%);
+  font-size: 14px;
+}
+
+.OTEN1 {
+  margin-top: 10em;
+  margin-bottom: 10em;
+  padding: 5% 15% 5% 15%;
+}
+
+.OTEN1 h1,
+.OTEN1 h2 {
+  font-weight: 400;
+  font-stretch: expanded;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.OTEN1 button {
+  background-color: #f15434;
+  border: none;
+  padding: 10px 12.5px 10px 12.5px;
+  border-radius: 20px;
+  letter-spacing: -0.5px;
+  font-size: 15px;
+  transform: scaleY(125%);
+  transition: 0.5s ease-in-out;
+}
+
+.OTEN1 button:hover {
+  filter: brightness(150%);
+  cursor: pointer;
+}
+
 .OTEN2 {
   background-color: white;
   padding: 5%;
-}
-
-p {
-  font-weight: 100;
-  font-style: normal;
-  color: rgb(0, 0, 0);
 }
 
 .OTEN3 {
@@ -58,20 +97,9 @@ p {
 }
 
 .Something {
-  background-color: rgb(135, 202, 35);
-  width: 35vh;
+  background-color: rgb(68, 174, 223);
+  width: 80vh;
   padding: 5px;
-}
-
-.my-carousel-progress {
-  background: #ccc;
-}
-
-.my-carousel-progress-bar {
-  background: rgb(209, 255, 139);
-  height: 75vh;
-  transition: width 400ms ease;
-  width: 0;
 }
 
 .splide__slide {
@@ -113,7 +141,7 @@ p {
 
 .card_btn {
   color: white;
-  background: rgb(125, 153, 82);
+  background: rgb(117, 177, 205);
   padding: 5%;
   text-transform: capitalize;
   border: none;
