@@ -1,0 +1,41 @@
+h1,
+h2,
+h3 {
+  letter-spacing: 2px;
+  font-weight: 600;
+  /* text-transform: uppercase; If tapuwan kaayo mo uppercase sa mga h1 */
+}
+h5 {
+  font-weight: 100;
+}
+
+p {
+  font-weight: 100;
+  font-size: 14px;
+  /* text-transform: capitalize; If tapuwan kaayo mo capitalize sa first letter sa html file */
+}
+
+#white {
+  color: white;
+}
+
+#white-left {
+  color: white;
+  text-align: left;
+}
+
+#white-left-glowing {
+  color: white;
+  text-align: left;
+  filter: drop-shadow(0px 0px 1px #ffffff);
+}
+
+/* ! para sa transitioning */
+
+#transition-1s {
+  transition: 1s ease-in-out;
+}
+
+#transition-05s {
+  transition: 0.5s ease-in-out;
+}

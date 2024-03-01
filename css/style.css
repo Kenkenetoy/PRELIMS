@@ -1,0 +1,143 @@
+* {
+  text-align: center;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+body {
+  background-image: url(https://img.freepik.com/free-photo/nature-colorful-landscape-dusk-cloud_1203-5705.jpg?w=900&t=st=1709004555~exp=1709005155~hmac=e75e902486a01d9d6e56ebc6e2af453951478f46724dbda9e2de06e0065908c0);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 100vh;
+  padding-top: 2.5em;
+}
+
+header {
+  background-color: rgb(31, 31, 31);
+  height: 5em;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  margin-bottom: 2.5em;
+  z-index: 100;
+}
+
+header nav {
+  padding: 1.5em 0 1.5em 5em;
+}
+
+header nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  margin: 1em;
+}
+
+header nav a img {
+  max-height: 2em;
+}
+
+.OTEN2 {
+  background-color: white;
+  padding: 5%;
+}
+
+p {
+  font-weight: 100;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+}
+
+.OTEN3 {
+  background-color: rgb(26, 26, 26);
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.Something {
+  background-color: rgb(135, 202, 35);
+  width: 35vh;
+  padding: 5px;
+}
+
+.my-carousel-progress {
+  background: #ccc;
+}
+
+.my-carousel-progress-bar {
+  background: rgb(209, 255, 139);
+  height: 75vh;
+  transition: width 400ms ease;
+  width: 0;
+}
+
+.splide__slide {
+  position: relative;
+  max-height: 65vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.splide__slide:hover img {
+  filter: blur(5px) grayscale(1) brightness(60%);
+}
+
+.splide__slide:hover .card_container {
+  transform: translateY(-10px);
+}
+
+.splide__slide:hover .card_btn {
+  transform: translateX(0%);
+}
+
+.splide__slide img {
+  filter: blur(0px) grayscale(0) brightness(60%);
+  position: relative;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card_container {
+  position: absolute;
+  height: 40%;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5%;
+}
+
+.card_btn {
+  color: white;
+  background: rgb(125, 153, 82);
+  padding: 5%;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  cursor: pointer;
+  width: 60%;
+  transform: translateX(50em);
+}
+
+.card_btn:hover {
+  filter: brightness(125%);
+}
+
+.footer-container {
+  background-color: rgb(5, 26, 39);
+  padding: 50%;
+}
+.credits {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+}
+.credits a {
+  color: rgb(170, 195, 211);
+}
