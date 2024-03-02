@@ -70,6 +70,8 @@ header nav a img {
 }
 
 .OTEN1 button {
+  display: flex;
+  flex-direction: row;
   background-color: #f15434;
   border: none;
   padding: 10px 12.5px 10px 12.5px;
@@ -78,11 +80,25 @@ header nav a img {
   font-size: 15px;
   transform: scaleY(125%);
   transition: 0.5s ease-in-out;
+  width: 10.5em;
+  text-align: center;
+}
+
+.OTEN1 button img {
+  width: 10px;
+  height: 10px;
+  display: none;
 }
 
 .OTEN1 button:hover {
   filter: brightness(150%);
   cursor: pointer;
+  width: 11.5em;
+  text-align: left;
+}
+
+.OTEN1 button:hover img {
+  display: block;
 }
 
 .OTEN2 {
