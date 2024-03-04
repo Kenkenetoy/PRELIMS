@@ -75,3 +75,7 @@ a:hover {
 #transition-05s {
   transition: 0.5s ease-in-out;
 }
+
+#transition-025s {
+  transition: 0.25s ease-in-out;
+}
