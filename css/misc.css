@@ -66,6 +66,12 @@ a:hover {
   filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.5));
 }
 
+#white-shadow-BIG {
+  font-size: 30px;
+  color: white;
+  filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.5));
+}
+
 /* ! para sa transitioning */
 
 #transition-1s {

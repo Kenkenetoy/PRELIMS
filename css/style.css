@@ -66,7 +66,7 @@ header nav a img {
   z-index: 2;
 }
 
-.OTEN1 img{
+.OTEN1 img {
   position: fixed;
   top: 0;
   left: 0;
@@ -246,9 +246,90 @@ p,
   filter: brightness(125%);
 }
 
+.OTEN4 {
+  background: none;
+  padding: 3% 12% 1% 12%;
+  position: relative;
+  height: auto;
+  overflow: hidden;
+}
+
+.OTEN4 h1 {
+  margin-bottom: 2%;
+  transform: scaleY(150%);
+}
+
+.OTEN4 img {
+  position: absolute;
+  width: 200vw;
+  height: 200vh;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.tenten {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 5%;
+  grid-row-gap: 5%;
+  padding: 5% 2.5% 5% 2.5%;
+  border-radius: 10px;
+}
+
+.tententen-1 p,
+.tententen-2 p,
+.tententen-3 p,
+.tententen-4 p,
+.tententen-1 h1,
+.tententen-2 h1,
+.tententen-3 h1,
+.tententen-4 h1 {
+  text-align: left;
+}
+
+.tententen-1 h1,
+.tententen-2 h1,
+.tententen-3 h1,
+.tententen-4 h1 {
+  font-size: 20px;
+  font-weight: 900;
+  color: #1d509f;
+  letter-spacing: 0px;
+}
+
+.tententen-1 p,
+.tententen-2 p,
+.tententen-3 p,
+.tententen-4 p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #8a8a8a;
+  letter-spacing: 0px;
+  line-height: 1.75em;
+}
+
+.tententen-1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.tententen-2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.tententen-3 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.tententen-4 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
 .footer-container {
+  display: flex;
+  flex-direction: row;
   background-color: rgb(5, 26, 39);
-  padding: 50%;
+  padding: 5%;
+  justify-content: space-around;
 }
 .credits {
   margin-top: 10px;
