@@ -62,10 +62,17 @@ header nav a img {
 }
 
 .OTEN1 {
-  background: url(/public/img/header/Header.jpg) center center/cover no-repeat
-    fixed;
   padding: 15% 15% 30% 15%;
   z-index: 2;
+}
+
+.OTEN1 img{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
 }
 
 .OTEN1 h1,
