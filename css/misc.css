@@ -83,6 +83,18 @@ a:hover {
   font-weight: 400;
 }
 
+#dark-gray-left-mini {
+  color: #707070;
+  font-size: 10px;
+  font-weight: 400;
+  text-align: left;
+}
+
+#mini {
+  font-size: 10px;
+  font-weight: 400;
+}
+
 /* ! para sa transitioning */
 
 #transition-1s {
