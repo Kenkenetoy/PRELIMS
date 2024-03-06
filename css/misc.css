@@ -95,6 +95,25 @@ a:hover {
   font-weight: 400;
 }
 
+#head-blue-grid-left {
+  font-size: 20px;
+  font-weight: 900;
+  color: #1d509f;
+  letter-spacing: 0px;
+  margin-bottom: 2%;
+  transform: scaleY(150%);
+  text-align: left;
+}
+
+#p-gray-grid-left {
+  font-size: 18px;
+  font-weight: 400;
+  color: #8a8a8a;
+  letter-spacing: 0px;
+  line-height: 1.75em;
+  text-align: left;
+}
+
 /* ! para sa transitioning */
 
 #transition-1s {

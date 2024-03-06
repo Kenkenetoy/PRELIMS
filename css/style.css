@@ -259,11 +259,6 @@ a .card_btn {
   text-align: left;
 }
 
-.OTEN4 h1 {
-  margin-bottom: 2%;
-  transform: scaleY(150%);
-}
-
 .OTEN4 img {
   position: absolute;
   width: 200vw;
@@ -285,38 +280,6 @@ a .card_btn {
   filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.5));
 }
 
-.tententen-1 p,
-.tententen-2 p,
-.tententen-3 p,
-.tententen-4 p,
-.tententen-1 h1,
-.tententen-2 h1,
-.tententen-3 h1,
-.tententen-4 h1 {
-  text-align: left;
-}
-
-.tententen-1 h1,
-.tententen-2 h1,
-.tententen-3 h1,
-.tententen-4 h1 {
-  font-size: 20px;
-  font-weight: 900;
-  color: #1d509f;
-  letter-spacing: 0px;
-}
-
-.tententen-1 p,
-.tententen-2 p,
-.tententen-3 p,
-.tententen-4 p {
-  font-size: 18px;
-  font-weight: 400;
-  color: #8a8a8a;
-  letter-spacing: 0px;
-  line-height: 1.75em;
-}
-
 .tententen-1 {
   grid-area: 1 / 1 / 2 / 2;
 }
@@ -333,6 +296,23 @@ a .card_btn {
 .footer-container {
   background-color: rgb(5, 26, 39);
   padding: 5%;
+}
+
+.OTEN5 {
+  background-color: white;
+  display: flex;
+  padding: 5em;
+  justify-content: space-around;
+}
+
+.OTEN5 img {
+  max-width: 8em;
+}
+
+.text-containers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .credits-container {
