@@ -50,7 +50,7 @@ header nav a img {
   max-height: 2em;
 }
 
-.pre-oten {
+.pre-subContainer {
   background-color: rgba(28, 81, 159, 255);
   padding: 15px 10px 10px 30px;
   transform: scaleY(125%);
@@ -61,12 +61,12 @@ header nav a img {
   position: relative;
 }
 
-.OTEN1 {
+.subContainer1 {
   padding: 15% 15% 22.5% 15%;
   z-index: 2;
 }
 
-.OTEN1 img {
+.subContainer1 img {
   position: fixed;
   top: 0;
   left: 0;
@@ -75,15 +75,15 @@ header nav a img {
   z-index: -1;
 }
 
-.OTEN1 h1,
-.OTEN1 h2 {
+.subContainer1 h1,
+.subContainer1 h2 {
   font-weight: 400;
   font-stretch: expanded;
   line-height: 1.6;
   margin-bottom: 25px;
 }
 
-.OTEN2 {
+.subContainer2 {
   background-color: rgba(253, 228, 166, 255);
   padding: 5% 10% 5% 10%;
   display: flex;
@@ -93,11 +93,11 @@ header nav a img {
   z-index: 3;
 }
 
-.OTEN2 #aside {
+.subContainer2 #aside {
   z-index: 100;
 }
 
-.OTEN2 img {
+.subContainer2 img {
   margin-top: -300px !important;
   right: 10em;
   width: 40%;
@@ -105,17 +105,17 @@ header nav a img {
   z-index: 100;
 }
 
-.OTEN2 #main {
+.subContainer2 #main {
   width: 40%;
   text-align: left;
 }
 
-.OTEN2 h1,
+.subContainer2 h1,
 p {
   text-align: left;
 }
 
-.OTEN2 h1 {
+.subContainer2 h1 {
   line-height: 125%;
   font-weight: 900;
   color: #21529b;
@@ -124,14 +124,14 @@ p {
   letter-spacing: -1px;
   margin-bottom: 30px;
 }
-.OTEN2 p {
+.subContainer2 p {
   line-height: 200%;
   font-weight: 400;
   color: #707070;
   font-size: 17px;
 }
 
-.OTEN3 {
+.subContainer3 {
   background-color: rgb(255, 255, 255);
   padding: 5em;
 }
@@ -246,7 +246,7 @@ a .card_btn {
   filter: brightness(125%);
 }
 
-.OTEN4 {
+.subContainer4 {
   background: none;
   padding: 3% 12% 1% 10%;
   position: relative;
@@ -259,7 +259,7 @@ a .card_btn {
   text-align: left;
 }
 
-.OTEN4 img {
+.subContainer4 img {
   position: absolute;
   width: 200vw;
   height: 200vh;
@@ -298,14 +298,14 @@ a .card_btn {
   padding: 5%;
 }
 
-.OTEN5 {
+.subContainer5 {
   background-color: white;
   display: flex;
   padding: 5em;
   justify-content: space-around;
 }
 
-.OTEN5 img {
+.subContainer5 img {
   max-width: 8em;
 }
 
