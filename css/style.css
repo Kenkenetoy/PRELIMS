@@ -301,7 +301,7 @@ a .card_btn {
 .subContainer5 {
   background-color: white;
   display: flex;
-  padding: 5em;
+  padding: 5em 2.5em 5em 2.5em;
   justify-content: space-around;
 }
 
