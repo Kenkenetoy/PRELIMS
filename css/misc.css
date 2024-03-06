@@ -95,6 +95,17 @@ a:hover {
   font-weight: 400;
 }
 
+#head-blue-verybig {
+  font-size: 35px;
+  line-height: 125%;
+  font-weight: 900;
+  color: #21529b;
+  transform: scaleY(125%);
+  transform: scaleY(150%);
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+}
+
 #head-blue-grid-left {
   font-size: 20px;
   font-weight: 900;
