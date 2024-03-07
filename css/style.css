@@ -351,3 +351,7 @@ p {
   display: flex;
   flex-direction: column;
 }
+
+.forresponsiveness {
+  display: none;
+}

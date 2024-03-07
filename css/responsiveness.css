@@ -1,0 +1,86 @@
+@media only screen and (max-width: 1043px) {
+  .subContainer2 {
+    display: block;
+    height: auto;
+    padding: 1em;
+  }
+
+  .subContainer2 #main {
+    width: 80%;
+    margin: 5em auto 0px auto;
+    text-align: center;
+  }
+
+  .subContainer2 img {
+    position: relative;
+    margin-top: 0 !important;
+    right: 0em;
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    z-index: 100;
+  }
+
+  .Something {
+    background-color: rgb(68, 174, 223);
+    width: auto;
+    padding: 5px;
+  }
+
+  .subContainer5 {
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+    justify-content: space-around;
+  }
+
+  .subContainer5 img {
+    margin: 1em 0em 1em 0;
+    max-width: 8em;
+  }
+
+  .text-containers {
+    margin: 1em 0em 1em 0em;
+  }
+
+  .subsub {
+    display: block;
+  }
+  .subsubten-1,
+  .subsubten-2,
+  .subsubten-3,
+  .subsubten-4 {
+    margin: 1em 0em 1em 0em;
+  }
+
+  .subContainer-nakisikit {
+    background-color: white;
+    padding: 2em 4em 2em 4em;
+  }
+
+  .splide {
+    display: none;
+  }
+
+  .splide__slide img {
+    object-position: center bottom;
+  }
+
+  .forresponsiveness {
+    display: block;
+  }
+
+  .card_btn {
+    color: white;
+    background: rgb(117, 177, 205);
+    padding: 5%;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+    width: 60%;
+    transform: translateX(0em);
+    align-items: flex-end;
+  }
+}
