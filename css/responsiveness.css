@@ -2,7 +2,8 @@
   .subContainer2 {
     display: block;
     height: auto;
-    padding: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
   }
 
   .subContainer2 #main {
@@ -45,6 +46,7 @@
 
   .subsub {
     display: block;
+    border-radius: 0px;
   }
   .subsubten-1,
   .subsubten-2,
@@ -53,16 +55,29 @@
     margin: 1em 0em 1em 0em;
   }
 
-  .subContainer-nakisikit {
-    background-color: white;
-    padding: 2em 4em 2em 4em;
+  .subContainer4 {
+    padding-left: 0em;
+    padding-right: 0em;
   }
 
+  .subContainer-nakisikit {
+    background-color: white;
+    padding: 2em 1em 2em 1em;
+  }
+
+  .subContainer3 {
+    padding: 2em;
+  }
   .splide {
     display: none;
   }
 
+  .forresponsiveness .splide__slide {
+    margin: 1em 0em 1em 0em;
+  }
+
   .splide__slide img {
+    height: 100%;
     object-position: center bottom;
   }
 
@@ -82,5 +97,15 @@
     width: 60%;
     transform: translateX(0em);
     align-items: flex-end;
+  }
+
+  .credits-container {
+    flex-direction: column;
+  }
+
+  .credits-container a,
+  .credits-container h1,
+  .credits-container p {
+    margin-top: 10px;
   }
 }

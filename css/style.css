@@ -68,6 +68,7 @@ header nav a img {
 
 .subContainer1 img {
   position: fixed;
+  object-fit: cover;
   top: 0;
   left: 0;
   width: 100vw;
@@ -134,6 +135,7 @@ p {
 .splide__slide {
   position: relative;
   max-height: 75vh;
+  height: 40vh;
   overflow-x: hidden;
   overflow-y: hidden;
 }
